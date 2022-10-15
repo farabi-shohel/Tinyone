@@ -1,0 +1,168 @@
+/*Common css style start*/
+ body{
+ 	font-family: 'PT Sans', sans-serif;
+ 	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+ }
+/*Common css style end*/
+
+/*Header css Start*/
+header{
+	background-color: #fcdb00;
+	padding: 10px 0;
+}
+.custom_menu ul li a{
+	font-size: 20px;
+	font-weight: 700;
+	color: #000000 !important;
+	padding: 0 50px !important;
+}
+.custom_menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.custom_menu ul li a: hover{}
+/*==== Header css End =====*/
+
+/*===== Slider Css start ====*/
+.slider_b{
+	padding-top: 30px;
+	padding-bottom: 100px;
+	background: #FCDB00;
+}
+.slider-text h1{
+	margin: 0;
+	font-size: 32px;
+    font-weight: 700;
+}
+.slider-text h2{
+	margin: 20px 0;
+	font-size: 22px;
+    color: #333333;
+}
+.slider-text p{
+	margin-bottom: 30px;
+	font-size: 16px;
+	color: #555555;
+}
+.slider-icon ul li{
+	margin-right: 30px !important;
+}
+.slider-icon ul li i{
+	font-size: 40px;
+	color: #000000;
+	transition: 0.4s;
+}
+.slider-icon ul li i:hover{
+	transform: scale(0.8);
+}
+.c_indicator {
+    bottom: -70px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+/*===== Slider CSS End ======*/
+
+/*===== Feature css start ======*/
+.feature{
+	padding-top: 100px;
+	padding-bottom: 110px;
+}
+.common-title h2{
+	margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.common-title p{
+	margin: 0;
+	font-size: 20px;
+    color: #313841;
+}
+.feature-item{
+	margin-top: 50px;
+    padding: 20px 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+.feature-icon{
+
+}
+.feature-icon i{
+	margin-top: 4px;
+	font-size: 50px;
+	color: #010101;
+	transition: 0.33s all ease-in-out;
+}
+.feature-icon i:hover{
+	transform: scale(.8);
+	/*color: #FCDB00;*/
+}
+.feature-text{}
+.feature-text h2{
+	margin-bottom: 10px;
+	font-size: 22px;
+	font-weight: 400;
+	color: #010101;
+}
+/*===== Feature CSS End ======*/
+
+/*==== CONTACT CSS START ====*/
+.contact{
+	padding-top: 90px;
+	background-color: #010101;
+}
+.common-title .h2_color{
+	color: #FCDB00;
+}
+.input-item{
+	margin-top: 40px;
+}
+.input-box input{
+	padding: 10px 25px;
+}
+.submit-btn button{
+	background-color: #FCDB00;
+	text-transform: uppercase;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	padding: 10px 25px;
+	color: #010101;
+	border: none;
+}
+.social-icon{
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+.social-icon ul li{
+	margin-right: 30px !important;
+}
+.social-icon ul li i{
+	font-size: 42px;
+	color: #FCDB00;
+	transition: 0.4s;
+}
+.social-icon ul li i:hover{
+	transform: scale(.9);
+	color: #ffffff;
+}
+/*==== CONTACT CSS END ====*/
+
+/*==== FOOTER CSS START ====*/
+footer{
+	background-color: #010101;
+	padding: 40px 0 80px;
+}
+.footer-content .f_text{
+	color: #ffffff;
+}
+.footer-content p{
+	margin-top: 10px;
+	color: #ffffff;
+}
+
+/*==== FOOTER CSS END ====*/
+
