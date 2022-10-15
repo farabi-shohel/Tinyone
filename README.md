@@ -1,2 +1,2 @@
 # tinyone
-PSD To HTML template
+Project Link : https://farabi-shohel.github.io/tinyone/
